@@ -1,0 +1,31 @@
+/* Couleurs */
+:root {
+    /* Mode 1 */
+    /* color */
+    --bleu: #36b9d7;
+    --bleu-obcure: #021634;
+    --violet: #b7c2e6;
+    --couleurs-suplemanetaires-jaune: #f7d67d;
+    --gris-et-noirs-gris: #d4d4d4;
+    --gris-et-noirs-gris-claire: #f3f2f2;
+    --gris-et-noirs-gris-obscure: #979797;
+}
+
+/* Typographies */
+:root {
+    /* Mode 1 */
+    /* number */
+    --taille-bouton: 0.625rem;
+    --taille-small-text: 0.75rem;
+    --taille-body-principal: 0.9375rem;
+    --taille-body-2: 1rem;
+    --taille-heading-3: 1.125rem;
+    --taille-body-1: 1.375rem;
+    --taille-heading-2: 1.5rem;
+    --taille-big-heading: 2.25rem;
+    --taille-heading-1: 3.4375rem;
+
+    /* string */
+    --body: Roboto;
+    --heding: Libre Franklin;
+}
