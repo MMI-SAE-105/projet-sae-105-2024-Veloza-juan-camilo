@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : Veloza Arcila
+- PRÉNOM : Juan Camilo
+- GROUPE : C2
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/design/IRUvajFL5665XPd48lZ83X/Maquettes-projet-individuel-%E2%80%94-Juan-Camilo-Veloza-C2?node-id=3975-1311&t=FKJMKlav0SLI9aen-1
