@@ -12,7 +12,7 @@
     transition: all 0.2s ease-in-out;
 }
 .menu[aria-hidden="false"] {
-    transform: translateX(1);
+    transform: translateX(0);
     visibility: visible;
 }
 .menu__item{
