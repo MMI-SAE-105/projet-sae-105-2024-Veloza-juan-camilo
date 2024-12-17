@@ -29,7 +29,7 @@
 } 
 .hero__content{
     position: relative;
-    z-index: 2;
+    z-index: 0;
 }
 .hero__title{
     font-size: var(--taille-heading-1);
@@ -86,4 +86,91 @@
     line-height: 150%;
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
+}
+.themathiques{
+    margin: 45px 20px 0;
+    text-align: center;
+}
+.themathiques-text{
+    font-size: var(--taille-body-2);
+    line-height: 160%;
+    padding-bottom: 5px;
+    text-align: left;
+}
+.themathiques__container{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 40px;
+    padding: 10px 0;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+.themathiques__theme{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-shrink: 0;
+    padding-top: 20px;
+}
+.themathiques__theme img{
+    width: 54.33px;
+    height: 54.33px;
+    padding-bottom: 10px;
+}
+.themathiques-types{
+    font-size: var(--taille-bouton);
+    line-height: 160%;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+}
+@media (max-width: 780px) {
+    .themathiques__container{
+        gap: 60px;
+        justify-content: center;
+    }
+    .themathiques__theme img{
+        width: 80px;
+        height: 80px;
+    }
+    .themathiques-types{
+        font-size: calc(var(--taille-bouton) + 4px);
+        letter-spacing: 3px;
+    }
+}
+@media (max-width: 1300px) {
+    .themathiques-text{
+        justify-content: start;
+    }
+    .themathiques__container{
+        gap: 50px;
+        justify-content: center;
+    }
+    .themathiques__theme img{
+        width: 64px;
+        height: 64px;
+    }
+    .themathiques-types{
+        font-size: var calc(var(--taille-bouton) + 2px);
+        letter-spacing: 2.8px;
+    }
+}
+@media (max-width: 767px){
+    .themathiques{
+        margin: 30px 15px 0;
+    }
+    .themathiques__container{
+        gap: 20px;
+        justify-content: center;
+    }
+    .themathiques__theme img{
+        width: 54.33px;
+        height: 54.33px;
+    }
+    .themathiques-types{
+        font-size: var(--taille-bouton);
+        letter-spacing: 2.4px;
+    }
 }

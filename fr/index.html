@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Humain Sur mesure</title>
+    <title>Humain Sur Mesure</title>
     <link rel="stylesheet" href="/src/css/style.css">
     <script class="module" src="/src/js/script.js"></script>
 </head>
@@ -19,8 +19,7 @@
         <button class="header__menu-btn menu-btn"
             aria-label="menu"
             aria-expanded="false"
-            aria-controls="mainNav"
-        >
+            aria-controls="mainNav">
         <span class="menu-btn__bar" aria-hidden="true"></span>
         </button>
 
@@ -80,29 +79,32 @@
 </div>
 </section>
 
-<section>
+<section class="landing-page">
+<div>
 <div class="cadre-violet">
     <p>Le futur de l'humanité se dessine déjà dans nos gènes. La génétique, en constante évolution, ouvre des perspectives vertigineuses.De la prévetion des maladies génénitques à la création de nouvelles espèces, les possibilités sont immenses. Ce site vous invite à explorer les enjeux et le défis de cette révolution scientifique.</p>
 </div>
-</section>
+</div>
 
 <div class="themathiques">
     <p class="themathiques-text">Thèmathiques</p><hr>
     <div class="themathiques__container">
-        <img src="/assets/icons/icone_science.svg" alt="Thèmathique science" aria-label="themathiques science">
-        <p class="themathiques-types">SCIENCE</p>
-    </div>
-    <div class="themathiques__container">
-        <img src="/assets/icons/icone_livre.svg" alt="Thèmathique livres" aria-label="themathiques science">
-        <p class="themathiques-types">LITTÉRATURE</p>
-    </div>
-    <div class="themathiques__container">
-        <img src="/assets/icons/Icone_musique.svg" alt="Thèmathique musique" aria-label="themathiques science">
-        <p class="themathiques-types">MUSIQUE</p>
-    </div>
-    <div class="themathiques__container">
-        <img src="/assets/icons/films.svg" alt="Thèmathique films" aria-label="themathiques science">
-        <p class="themathiques-types">FILMS</p>
+        <div class="themathiques__theme">
+            <img src="/assets/icons/icone_science.svg" alt="Thèmathique science" aria-label="themathiques science">
+            <p class="themathiques-types">SCIENCE</p>
+        </div>
+        <div class="themathiques__theme">
+            <img src="/assets/icons/icone_livre.svg" alt="Thèmathique livres" aria-label="themathiques science">
+            <p class="themathiques-types">LITTÉRATURE</p>
+        </div>
+        <div class="themathiques__theme">
+            <img src="/assets/icons/Icone_musique.svg" alt="Thèmathique musique" aria-label="themathiques science">
+            <p class="themathiques-types">MUSIQUE</p>
+        </div>
+        <div class="themathiques__theme">
+            <img src="/assets/icons/films.svg" alt="Thèmathique films" aria-label="themathiques science">
+            <p class="themathiques-types">FILMS</p>
+        </div>
     </div>
 </div>
 
@@ -118,7 +120,7 @@
             ouvre nouvelles possibilités tout en soulevant des défis éthiques importants. Lisez l’article pour en savoir plus !</p>
         </div>
         <div class="card-footer">
-            <button class="button__card">EN SAVOIR PLUS</button>
+            <button class="button__card" onclick="window.location.href='object.html'">EN SAVOIR PLUS</button>
         </div>
     </div>
 
@@ -133,7 +135,7 @@
             les risques et les promesses de ces innovations. Découvrez son analyse approfondie en lisant l’article complet !</p>
         </div>
         <div class="card-footer">
-            <button class="button__card">EN SAVOIR PLUS</button>
+            <button class="button__card" onclick="window.location.href='livre.html'">EN SAVOIR PLUS</button>
         </div>
     </div>
 
@@ -148,7 +150,7 @@
             société mécanisée. Lisez l’article pour découvrir l’analyse de ce titre emblématique et sa pertinence actuelle!p>
         </div>
         <div class="card-footer">
-            <button class="button__card">EN SAVOIR PLUS</button>
+            <button class="button__card" onclick="window.location.href='musique.html'">EN SAVOIR PLUS</button>
         </div>
     </div>
 
@@ -163,7 +165,7 @@
             fondée sur la manipulation génétique. Découvrez-en plus su cette vision dystopique dans notre analyse complète!</p>
         </div>
         <div class="card-footer">
-            <button class="button__card">EN SAVOIR PLUS</button>
+            <button class="button__card" onclick="window.location.href='film.html'">EN SAVOIR PLUS</button>
         </div>
     </div>
 
@@ -178,10 +180,11 @@
             technologie et de la manipulation de la réalité, soulevant des questions éthiques sur la liberté et l’identité humaine</p>
         </div>
         <div class="card-footer">
-            <button class="button__card">EN SAVOIR PLUS</button>
+            <button class="button__card" onclick="window.location.href='realisateur.html'">EN SAVOIR PLUS</button>
         </div>
     </div>
 </article>
+</section>
 </main>
 <footer class="footer">
     <div class="footer__content">
@@ -195,16 +198,16 @@
         </div>
         <hr class="ligne__footer">
         <ul class="footer__menu">
-            <li><a href="#">CONTACT</a></li>
-            <li><a href="#">À PROPOS</a></li>
-            <li><a href="#">AUTRES PROJETS</a></li>
-            <li><a href="#">GLOSSAIRE</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li><a href="apropos.html">À PROPOS</a></li>
+            <li><a href="projects.html">AUTRES PROJETS</a></li>
+            <li><a href="glossaire.html">GLOSSAIRE</a></li>
         </ul>
         <hr class="ligne__footer">
         <div class="footer__social">
-            <a href="#" aria-label="Instagram"><img src="/assets/icons/instagram.svg" alt="Instagram Logo"></a>
-            <a href="#" aria-label="Facebook"><img src="/assets/icons/Facebook.svg" alt="Facebook Logo"></a>
-            <a href="#" aria-label="LinkedIn"><img src="/assets/icons/linkedin.svg" alt="LinkedIn Logo"></a>
+            <a href="https://www.instagram.com/camiloveloza.a/profilecard/?igsh=MTRtNjNoeWN2dXNsdA==" aria-label="Instagram"><img src="/assets/icons/instagram.svg" alt="Instagram Logo"></a>
+            <a href="https://www.facebook.com/profile.php?id=61552534568009" aria-label="Facebook"><img src="/assets/icons/Facebook.svg" alt="Facebook Logo"></a>
+            <a href="https://www.linkedin.com/in/juan-camilo-veloza-arcila-6b8965328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn"><img src="/assets/icons/linkedin.svg" alt="LinkedIn Logo"></a>
         </div>
         <p class="footer__note">
             "Projet réalisé en 2024 dans le cadre d'un exercise pédagogique au département<a href="#" class="footer__link"> MMI de Montbéliard</a>

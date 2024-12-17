@@ -3,13 +3,13 @@
     display: flex;
     position: fixed;
     z-index: 1;
-    background: linear-gradient(to bottom,var(--bleu),var(--bleu-obcure));
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(54, 185, 215, 0.20) 100%), var(--Bleu-obcure, #021634);
     inset: 0;
     flex-direction: column;
     justify-content: space-between;
     padding: 30px;
-    transform: translateX(90vw);
-    transition: all 0.2s ease-in-out;
+    transform: translateX(100vw);
+    transition: all 0.5s ease-in-out;
 }
 .menu[aria-hidden="false"] {
     transform: translateX(0);
@@ -38,6 +38,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .menu__social-network,

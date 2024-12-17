@@ -6,7 +6,7 @@
 body{
     font-family: var(--body);
     font-size: var(--taille-body-principal);
-    /* background-color: var(--bleu-obcure); */
+    background-color: var(--bleu-obcure); 
     line-height: 150%;
     font-weight: var(--taille-body-principal) ;
     overflow-x: hidden;
@@ -42,6 +42,16 @@ button{
     font-family: var(--heding);
     font-size: var(--taille-bouton);
     letter-spacing: 0.15em;
+}
+figcaption {
+    text-align: center;
+    font-size: var(--taille-small-text);
+    font-weight: normal;
+    line-height: 160%;
+    padding-bottom: 25px;
+}
+.landing-page{
+    background-color: var(--gris-et-noirs-gris-claire);
 }
 .list-unstyled{
     list-style: none;
