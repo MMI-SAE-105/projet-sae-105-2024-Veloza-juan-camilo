@@ -7,19 +7,30 @@
     <title>Humain Sur Mesure</title>
     <link rel="stylesheet" href="/src/css/style.css">
     <script class="module" src="/src/js/script.js"></script>
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="/assets/favicons/site.webmanifest" />
 </head>
 
 <body>
-    <header class="header">
-        <a class="header_logo-link" href="index.html">
-            <img class="header__logo" src="/assets/icons/Logo.svg" alt="Logo Humain sur mesure" />
-        </a>
+<header class="header">
+    <a class="header_logo-link" href="index.html">
+        <img class="header__logo" src="/assets/icons/Logo.svg" alt="Logo Humain sur mesure">
+    </a>
 
-        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
-            <span class="menu-btn__bar" aria-hidden="true"></span>
-        </button>
-
-        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+    <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+        <span class="menu-btn__bar" aria-hidden="true"></span>
+    </button>
+    <section class="header__menu menu">
+        <div>
+            <a class="header_logo-link" href="#">
+                <img class="header__logo" src="/assets/icons/Logo.svg" alt="Logo Humain sur mesure">
+            </a>
+        </div>
+        <nav id="mainNav" aria-hidden="true">
             <ul class="menu__list list-unstyled">
                 <li class="menu__item">
                     <a class="menu__link" href="object.html">Modification de l'ADN : CRISPR</a>
@@ -59,7 +70,8 @@
                 <span class="mon-nom">Juan Camilo Veloza - Groupe C2</span>
             </div>
         </nav>
-    </header>
+    </section>
+</header>
 <main class="article-container">
     <article class="article-content">
         <div class="article-header">
@@ -159,7 +171,7 @@
                 aria-label="LinkedIn"><img src="/assets/icons/linkedin.svg" alt="LinkedIn Logo"></a>
         </div>
         <p class="footer__note">
-            "Projet réalisé en 2024 dans le cadre d'un exercise pédagogique au département<a href="#"
+            "Projet réalisé en 2024 dans le cadre d'un exercise pédagogique au département<a href="https://blogdummi.fr/"
                 class="footer__link"> MMI de Montbéliard</a>
         </p>
     </div>

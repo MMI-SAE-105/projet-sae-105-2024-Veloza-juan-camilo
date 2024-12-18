@@ -7,6 +7,7 @@
     inset: 0;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-start;
     padding: 30px;
     transform: translateX(100vw);
     transition: all 0.5s ease-in-out;
@@ -15,8 +16,16 @@
     transform: translateX(0);
     visibility: visible;
 }
+.header_logo-link{
+    margin-bottom: 20px;
+}
+.header__logo{
+    width: 45px;
+    max-width: 100%;
+    height: auto;
+}
 .menu__item{
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     padding-bottom: 10px;
     border-bottom: 1px solid var(--violet);
 }
@@ -72,7 +81,7 @@
 .menu-btn[aria-expanded="true"] .menu-btn__bar::before,
 .menu-btn[aria-expanded="true"] .menu-btn__bar::after {
     transform: rotate(135deg);
-    background: var(--white);
+    background: white;
 }
 
 .menu-btn[aria-expanded="true"] .menu-btn__bar::before,

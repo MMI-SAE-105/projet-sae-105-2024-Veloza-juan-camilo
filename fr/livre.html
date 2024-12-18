@@ -7,19 +7,30 @@
     <title>Humain Sur Mesure</title>
     <link rel="stylesheet" href="/src/css/style.css">
     <script class="module" src="/src/js/script.js"></script>
+    <link rel="icon" type="image/png" href="/assets/favicons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicons/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicons/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MyWebSite" />
+    <link rel="manifest" href="/assets/favicons/site.webmanifest" />
 </head>
 
 <body>
-    <header class="header">
-        <a class="header_logo-link" href="index.html">
-            <img class="header__logo" src="/assets/icons/Logo.svg" alt="Logo Humain sur mesure" />
-        </a>
+<header class="header">
+    <a class="header_logo-link" href="index.html">
+        <img class="header__logo" src="/assets/icons/Logo.svg" alt="Logo Humain sur mesure">
+    </a>
 
-        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
-            <span class="menu-btn__bar" aria-hidden="true"></span>
-        </button>
-
-        <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+    <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+        <span class="menu-btn__bar" aria-hidden="true"></span>
+    </button>
+    <section class="header__menu menu">
+        <div>
+            <a class="header_logo-link" href="#">
+                <img class="header__logo" src="/assets/icons/Logo.svg" alt="Logo Humain sur mesure">
+            </a>
+        </div>
+        <nav id="mainNav" aria-hidden="true">
             <ul class="menu__list list-unstyled">
                 <li class="menu__item">
                     <a class="menu__link" href="object.html">Modification de l'ADN : CRISPR</a>
@@ -59,8 +70,8 @@
                 <span class="mon-nom">Juan Camilo Veloza - Groupe C2</span>
             </div>
         </nav>
-    </header>
-
+    </section>
+</header>
     <main class="article-container">
         <article class="article-content">
             <div class="article-header">
@@ -87,7 +98,7 @@
             </p>
             <div class="article-image">
                 <figure>
-                    <img src="/assets/img/transhumanime-livre.webp" alt="Representation du gen humain">
+                    <img src="/assets/img/transhumanime-livre.webp" alt="Livre transhumanisme de Christina Byk" aria-label="Couverture du livre Transhumanisme de Christian Byk">
                     <figcaption>Photo du livre Transhumanisme de Christian Byk</figcaption>
                 </figure>
             </div>
@@ -104,7 +115,7 @@
                 <h2 class="corps-title">Entre promesses d'évolution et risques étiques</h2>
                 <div class="corps-image">
                     <figure>
-                        <img src="/assets/img/evolution.webp" alt="Representation du gen humain">
+                        <img src="/assets/img/evolution.webp" alt="Photo de la croissance d'un humain depuis l'enfance" aria-label="Image representant l'évolution d'un être humain" loading="lazy">
                         <figcaption>Recréation du chaine de l'ADN d'un être vivant</figcaption>
                     </figure>
                 </div>
@@ -123,28 +134,33 @@
                 <p class="corps-main"><cite>« L’évolution des techniques nous annonce un humain qui, à la fois, prédira son avenir en connaissant ses données génétiques et neurologiques et pourra programmer son avenir par modification du corps ou hybridation avec le robot. Il n’est pas facile d’imaginer, dans la perspective d’un « droit-fiction », ce qui deviendront les droits de l’homme dans
                 une société post-humaine qui ressemblerait à une société de castes et serait ainsi la négation même des droits de l’homme »</cite></p><br>
 
-                <a href="https://www.fnac.com/a12844076/Peggy-Larrieu-Transhumanisme"
-                    style="color: black; font-size: var(--taille-small-text);">Si vous voulez lire la suite, achetez
+                <a href="https://www.fnac.com/a12844076/Peggy-Larrieu-Transhumanisme">Si vous voulez lire la suite, achetez
                     le livre ici ! </a>
                 
                 <div class="corps-image">
                     <figure>
-                        <img src="/assets/img/brain-neurones.webp" alt="Representation du gen humain">
+                        <img src="/assets/img/brain-neurones.webp" alt="Representation du gen humain" aria-label="Image representant la genetique d'un être humain" loading="lazy">
                         <figcaption>Recréation du chaine de l'ADN d'un être vivant</figcaption>
                     </figure>
                 </div>
             </article>
             <article class="articles-corps">
-                <h2 class="corps-title">Entre promesses d'évolution et risques étiques</h2>
+                <h2 class="corps-title">Autres œuvres de Christian Byk et bibliographie</h2>
                 
-                <p class="corps-main">L’ouvrage de Byk se situe dans une réflexion centrale sur l’évolution humaine. Il souligne
-                    que, bien que les
-                    technologies telles que CRISPR ou les interfaces homme-machine puissent sembler prometteuses, elles doivent être
-                    encadrées par des principes étiques claires. Ces outils peuvent transformer l’humanité, mais à quel prix ? Byk
-                    met en lumière le danger d’un futur où seuls les plus riches ou les plus puissants auraient accès à ces
-                    innovations, créant des inégalités sociales inédites. Le concept « d’homme-machine », qui pourrait résulter de
-                    ces évolutions, pose également la question de la nature humaine et du sens même de l’humanité</p><br>
+                <p class="corps-main">Christian Byk est juriste et philosophe, spécialisé dans les questions éthiques liées aux biotechnologies et aux droitsde l’homme. Outre Transhumanisme, Byk a écrit plusieurs ouvrages traitant des enjeux éthiques dans la société moderne. Parmi ses autres œuvres, on trouve :</p><br>
+                <ul class="corps-list">
+                    <li> Étique et biotechnologie (2000)</li>
+                    <li> Le droit de la bioéthique (2006)</li>
+                    <li> Les droits de l’homme et la bioéthique (2011)</li>
+                </ul>
             </article>
+
+            <section>
+            <h3 class="corps-title-bas">Dans son analyse du transhumanisme, Christian Byk soulevé des<br> préoccupations qui résonnent<br> fortement avec les themes de la<br>chanson « Welcome to the machine »<br>de Pink Floyd.</h3>
+            <button class="button__articles"
+                onclick="window.location.href='musique.html'">LIRE L'ARTICLE
+            </button>
+            </section>
         </article>
 
     </main>
@@ -175,7 +191,7 @@
                     aria-label="LinkedIn"><img src="/assets/icons/linkedin.svg" alt="LinkedIn Logo"></a>
             </div>
             <p class="footer__note">
-                "Projet réalisé en 2024 dans le cadre d'un exercise pédagogique au département<a href="#"
+                "Projet réalisé en 2024 dans le cadre d'un exercise pédagogique au département<a href="https://blogdummi.fr/"
                     class="footer__link"> MMI de Montbéliard</a>
             </p>
         </div>

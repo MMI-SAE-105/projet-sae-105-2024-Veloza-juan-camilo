@@ -72,10 +72,6 @@
     transition: background-color 0.3s;
 }
 
-button:hover {
-    background-color: var(--violet);
-    
-}
 @media (max-width: 768px) {
     .card__section {
         grid-template-columns: 1fr;

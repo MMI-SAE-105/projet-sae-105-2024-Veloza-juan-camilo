@@ -43,12 +43,20 @@ button{
     font-size: var(--taille-bouton);
     letter-spacing: 0.15em;
 }
+button:hover{
+    background-color: var(--bleu);
+    transition: 0.3s ease-in-out;
+}
 figcaption {
     text-align: center;
     font-size: var(--taille-small-text);
     font-weight: normal;
     line-height: 160%;
     padding-bottom: 25px;
+}
+a{
+    color: black;
+    font-size: var(--taille-small-text);
 }
 .landing-page{
     background-color: var(--gris-et-noirs-gris-claire);
