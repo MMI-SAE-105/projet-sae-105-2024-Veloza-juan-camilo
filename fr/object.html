@@ -27,7 +27,7 @@
     <section class="header__menu menu">
         <div>
             <a class="header_logo-link" href="#">
-                <img class="header__logo" src="/assets/icons/Logo.svg" alt="Logo Humain sur mesure">
+                <img class="header__logo deux" src="/assets/icons/Logo.svg" alt="Logo Humain sur mesure">
             </a>
         </div>
         <nav id="mainNav" aria-hidden="true">
@@ -80,8 +80,16 @@
                 <span class="type"><img src="/assets/icons/icone_science.svg" alt=""></span>
                 <span class="type-article">SCIENCE</span>
                 </div>
-                <div class="language-selector">
-                    FR / EN
+                <div class="form__container">
+                    <div class="form__content">
+                        <div class="language-selector">
+                            <a href="../fr/object.html" onclick="document.cookie = `nf_lang=fr; path=/ ; SameSite=Strict`"
+                                style="text-decoration: none;" class="lang-btn">FR</a>
+                            <span class="divider"></span>
+                            <a href="../en/object.html" onclick="document.cookie = `nf_lang=en; path=/ ; SameSite=Strict`"
+                                style="text-decoration: none;" class="lang-btn">EN</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

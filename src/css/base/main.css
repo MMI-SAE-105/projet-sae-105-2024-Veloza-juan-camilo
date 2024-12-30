@@ -54,6 +54,12 @@ figcaption {
     line-height: 160%;
     padding-bottom: 25px;
 }
+ul,
+li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 a{
     color: black;
     font-size: var(--taille-small-text);

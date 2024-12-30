@@ -101,9 +101,8 @@
     display: flex;
     align-items: center;
     align-items: center;
-    gap: 40px;
+    gap: 20px;
     padding: 10px 0;
-    overflow-x: auto;
     white-space: nowrap;
 }
 .themathiques__theme{

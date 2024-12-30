@@ -133,3 +133,11 @@
         height: 25px;
     }
 }
+
+/* formulaire */
+@media (max-width: 640px) {
+    .form-container {
+        padding: 1rem;
+    }
+}
+

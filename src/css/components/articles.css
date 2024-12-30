@@ -39,13 +39,40 @@ span.type img{
     font-weight: bold;
     line-height: 130%;
 }
-.language-selector{
-    font-size: var(--taille-bouton);
-    padding: 4px 10px;
-    padding-top: 5px;
-    color: black;
-    border: 1px solid black;
+.form__container{
+    min-height: 2px;
+    border: solid 1px;
+    padding-left:5px;
+    padding-right:5px;
 }
+.form__content{
+    justify-content: center;
+}
+.language-selector{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1px;
+}
+.lang-btn{
+    padding: 0.25rem 0.5rem;
+    font-size: 0.8rem;
+    color: black;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: var(--taille-bouton);
+}
+.lang-btn:hover{
+    background-color: var(--bleu);
+}
+.divider{
+    width: 1px;
+    background-color: var(--bleu-obcure);
+    margin: 0 2px;
+    margin-top: 5px;
+    height: 20px;
+}
+
 .article-title{
     font-size: var(--taille-heading-2);
     font-weight: 600;
@@ -96,9 +123,9 @@ span.type img{
 .corps-list{
     padding: 0 20px;
 }
-::marker{
+/* ::marker{
     content: "◦";
-}
+} */
 .corps-title-bas{
     display: flex;
     font-weight: 600;
@@ -114,9 +141,97 @@ span.type img{
     flex-shrink: 0;
     background-color: var(--bleu-obcure);
 }
+.camilo-image{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 0.5rem;
+    scale: 0.9;
+    margin-left: -7px;
+
+}
+.corps-title-box{
+    background-color: var(--bleu-obcure);
+    color: white;
+    padding: 10px 18px;
+    margin-right: 12rem;
+    margin-bottom: 2rem;
+    margin-top:3rem;
+}
 #cite-andrew{
     display: block;
     text-align: right;
     margin-top: 15px;
     padding-right: 10px;
+}
+#title-body{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: var(--body);
+    font-size: var(--taille-body-1);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+#remerciment{
+    font-family: var(--heading);
+    font-size: var(--taille-heading-2);
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%;
+    padding-top: 2rem;
+}
+#text-gracias{
+    padding-top: 1rem;
+    font-size: var(--taille-small-text);
+    line-height: 160%;
+    font-weight: 400;
+}
+.ligne__projects{
+    background-color: black;
+    height: 2px;
+    margin-top: 19px;
+    width: 290px;
+}
+.group-project{
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 6rem;
+    padding-bottom: 30px;
+}
+.link-wrapper{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: all 0.3s ease;
+}
+.link-wrapper:hover{
+    background-color: var(--bleu);
+    border-radius: 20px;
+}
+.ligne__glossaire{
+    background-color: black;
+    width: 171px;
+    height: 3px;
+}
+.corps-title-enbas{
+    padding-top: 50px;
+    font-family: var(--heading);
+    font-size: var(--taille-heading-3);
+    position: relative;
+    padding-left: 20px;
+}
+.corps-title-enbas::before {
+    content: '';
+    position: absolute;
+    margin-top: 55px;
+    left: 0;
+    top: 0;
+    height: 43px;
+    width: 5px;
+    background-color: var(--bleu-obcure);
 }

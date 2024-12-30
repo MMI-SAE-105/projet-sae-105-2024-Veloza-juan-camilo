@@ -27,7 +27,7 @@
         <section class="header__menu menu">
             <div>
                 <a class="header_logo-link" href="#">
-                    <img class="header__logo" src="/assets/icons/Logo.svg" alt="Logo Humain sur mesure">
+                    <img class="header__logo deux" src="/assets/icons/Logo.svg" alt="Logo Humain sur mesure">
                 </a>
             </div>
             <nav id="mainNav" aria-hidden="true">
@@ -72,132 +72,46 @@
             </nav>
         </section>
     </header>
-    <h2 class="title-films-correles">GALERIE</h2>
+    <h2 class="title-films-correles">CONTACT</h2>
     <main class="article-container">
         <article class="article-content">
             <div class="article-header">
                 <div class="category-row" style="justify-content:right;">
-                    <div class="language-selector">
-                        FR / EN
+                    <div class="form__container">
+                        <div class="form__content">
+                            <div class="language-selector">
+                                <a href="../fr/contact.html" onclick="document.cookie = `nf_lang=fr; path=/ ; SameSite=Strict`"
+                                    style="text-decoration: none;" class="lang-btn">FR</a>
+                                <span class="divider"></span>
+                                <a href="../en/contact.html" onclick="document.cookie = `nf_lang=en; path=/ ; SameSite=Strict`"
+                                    style="text-decoration: none;" class="lang-btn">EN</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            <p class="corps-main">Si vous avez des préoccupations concernant le contenu du site web, des recommandations ou des réclamations/plaintes sur un sujet particulier, veuillez me contacter à l'aide de ce formulaire.</p>
             </div>
-            <hr>
-            <h1 class="article-title">FILMS CORRÉLÉS</h1>
-            <article class="card__section" style="margin: 0%; gap: 70px;">
-                <div class="card">
-                    <div class="card-image" style="height: 400px;">
-                        <img src="/assets/img/films/jurassic-park.webp" alt="Jurassic Park Affiche"
-                            aria-label="Image de l'affiche du film Jurassic Park">
-                    </div>
-                    <div class="card-content">
-                        <h2 class="card-title">JURASSIC PARK</h2>
-                        <p>Dans ce film emblématique, des scientifiques parviennent à cloner des dinosaures à partir
-                            d'ADN extrait de moustiques
-                            conservés dans l'ambre. Lorsque ces dinosaures s'échappent de leur enclos, le chaos
-                            s'installe et la vie des visiteurs
-                            du parc d'attractions est mise en danger.</p>
-                    </div>
-                    <div class="card-footer">
-                        <button class="button__card"
-                            onclick="window.location.href='https://www.allocine.fr/film/fichefilm_gen_cfilm=8488.html'">EN
-                            SAVOIR PLUS</button>
-                    </div>
+            <hr class="ligne__contact">
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="nom">Nom</label>
+                    <input type="text" id="nom" placeholder="Indiquez votre nom">
+                </div>
+                <div class="form-group">
+                    <label for="prenom">Prenom</label>
+                    <input type="text" id="prenom" placeholder="Indiquez votre prenom">
+                </div>
+                <div class="form-group">
+                    <label for="email">Mail</label>
+                    <input type="text" id="email" placeholder="ABCDEFGHIKJ@gmail.com">
+                </div>
+                <div class="form-group">
+                    <label for="motif">Motif</label>
+                    <textarea id="motif" placeholder="Indiquez le motif de votre inquietude ou réclamation"></textarea>
                 </div>
 
-                <div class="card">
-                    <div class="card-image" style="height: 400px;">
-                        <img src="/assets/img/films/exmachine.webp" alt="Ex Machina Affiche"
-                            aria-label="Image de l'affiche du film Ex Machina" loading="lazy">
-                    </div>
-                    <div class="card-content">
-                        <h2 class="card-title">EX-MACHINA</h2>
-                        <p>Un jeune programmeur est invité dans une installation éloignée pour évaluer l'intelligence
-                            artificielle d'une femme androïde. Au fur et à mesure qu'il interagit avec elle, il
-                            s'interroge sur la nature de la conscience et sur les frontières entre les humains et les
-                            machines.</p>
-                    </div>
-                    <div class="card-footer">
-                        <button class="button__card"
-                            onclick="window.location.href='https://www.imdb.com/fr/title/tt0470752/'">EN SAVOIR
-                            PLUS</button>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-image" style="height: 400px;">
-                        <img src="/assets/img/films/isla.webp" alt="L'ÎLE Affiche"
-                            aria-label="Image de l'affiche du film L'ÎLE" loading="lazy">
-                    </div>
-                    <div class="card-content">
-                        <h2 class="card-title"> L'ÎLE</h2>
-                        <p>Dans une installation secrète, des clones sont créés pour servir de donneurs d'organes. Un
-                            clone se méfie de leur
-                            existence et s'échappe, déclenchant une dangereuse quête de vérité.
-                        <p>
-                    </div>
-                    <div class="card-footer">
-                        <button class="button__card"
-                            onclick="window.location.href='https://www.imdb.com/fr/title/tt0399201/'">EN SAVOIR
-                            PLUS</button>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-image" style="height: 400px;">
-                        <img src="/assets/img/films/splice.webp" alt="Splice Affiche"
-                            aria-label="Image de l'affiche du film Splice" loading="lazy">
-                    </div>
-                    <div class="card-content">
-                        <h2 class="card-title">SPLICE</h2>
-                        <p>Deux scientifiques transgressent les limites de l'éthique en créant une créature hybride à
-                            partir d'ADN humain et animal. Leur expérience a des conséquences inattendues et
-                            terrifiantes, mettant en jeu leur propre vie et celle du monde.</p>
-                    </div>
-                    <div class="card-footer">
-                        <button class="button__card"
-                            onclick="window.location.href='https://www.imdb.com/fr/title/tt1017460/?reasonForLanguagePrompt=browser_header_mismatch'">EN
-                            SAVOIR PLUS</button>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-image" style="height: 400px;">
-                        <img src="/assets/img/films/akira.webp" alt="Akira Affiche"
-                            aria-label="Image de l'affiche du film Akira" loading="lazy">
-                    </div>
-                    <div class="card-content">
-                        <h2 class="card-title">AKIRA</h2>
-                        <p>Dans un futur dystopique, un groupe d'adolescents dotés de pouvoirs psychiques
-                            extraordinaires, issus d'expériences
-                            génétiques, devient une menace pour l'humanité. Akira explore les dangers de la manipulation
-                            génétique et les
-                            conséquences de l'interprétation de Dieu.</p>
-                    </div>
-                    <div class="card-footer">
-                        <button class="button__card"
-                            onclick="window.location.href='https://www.imdb.com/title/tt0094625/plotsummary/'">EN SAVOIR
-                            PLUS</button>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-image" style="height: 400px;">
-                        <img src="/assets/img/films/mimic.webp" alt="Akira Affiche"
-                            aria-label="Image de l'affiche du film Akira" loading="lazy">
-                    </div>
-                    <div class="card-content">
-                        <h2 class="card-title">MIMIC</h2>
-                        <p>Les scientifiques créent des insectes génétiquement modifiés pour lutter contre les
-                            parasites, mais ceux-ci évoluent et deviennent une menace.</p>
-                    </div>
-                    <div class="card-footer">
-                        <button class="button__card"
-                            onclick="window.location.href='https://www.imdb.com/fr/title/tt0119675/?reasonForLanguagePrompt=browser_header_mismatch'">EN
-                            SAVOIR PLUS</button>
-                    </div>
-                </div>
-            </article>
+                <button type="submit" class="submit-btn">ENVOYER</button>
+            </form>
         </article>
     </main>
 
