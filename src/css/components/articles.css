@@ -114,3 +114,9 @@ span.type img{
     flex-shrink: 0;
     background-color: var(--bleu-obcure);
 }
+#cite-andrew{
+    display: block;
+    text-align: right;
+    margin-top: 15px;
+    padding-right: 10px;
+}

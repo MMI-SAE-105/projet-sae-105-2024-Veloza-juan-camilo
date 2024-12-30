@@ -1,0 +1,135 @@
+/* Contenedor que envuelve el video */
+@media (max-width: 768px) {
+    .card__section {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        margin: 10px auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-image {
+        height: 200px;
+    }
+
+    .card-content h3 {
+        font-size: calc(var(--taille-heading-3) - 2px);
+    }
+
+    .button__card {
+        font-size: calc(var(--taille-bouton) - 2px);
+        padding: 10px 16px;
+    }
+}
+
+/* hero */
+
+@media (max-width: 780px) {
+    .themathiques__container {
+        gap: 60px;
+        justify-content: center;
+    }
+
+    .themathiques__theme img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .themathiques-types {
+        font-size: calc(var(--taille-bouton) + 4px);
+        letter-spacing: 3px;
+    }
+}
+
+@media (max-width: 1300px) {
+    .themathiques-text {
+        justify-content: start;
+    }
+
+    .themathiques__container {
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .themathiques__theme img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .themathiques-types {
+        font-size: var calc(var(--taille-bouton) + 2px);
+        letter-spacing: 2.8px;
+    }
+}
+
+@media (max-width: 767px) {
+    .themathiques {
+        margin: 30px 15px 0;
+    }
+
+    .themathiques__container {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .themathiques__theme img {
+        width: 54.33px;
+        height: 54.33px;
+    }
+
+    .themathiques-types {
+        font-size: var(--taille-bouton);
+        letter-spacing: 2.4px;
+    }
+}
+
+/* footer */
+
+@media screen and (max-width: 320px) {
+    .footer {
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer__content {
+        max-width: none;
+        width: 100%;
+    }
+
+    .footer__logo {
+        margin-bottom: 15px;
+    }
+
+    .footer__menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__menu li {
+        margin-bottom: 15px;
+    }
+
+    .footer__social {
+        justify-content: center;
+    }
+
+    .footer__note {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .footer__menu li {
+        margin-bottom: 10px;
+    }
+
+    .footer__social img {
+        width: 25px;
+        height: 25px;
+    }
+}

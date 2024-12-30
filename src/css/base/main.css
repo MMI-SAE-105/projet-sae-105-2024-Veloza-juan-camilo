@@ -58,6 +58,17 @@ a{
     color: black;
     font-size: var(--taille-small-text);
 }
+.title-films-correles{
+    display: flex;
+    padding-top: 140px;
+    margin-bottom: -50px;
+    font-size: var(--taille-big-heading);
+    font-weight: 500;
+    font-style: normal;
+    color: var(--couleurs-suplemanetaires-jaune);
+    justify-content: center;
+    line-height: 110%;
+}
 .landing-page{
     background-color: var(--gris-et-noirs-gris-claire);
 }
@@ -68,4 +79,12 @@ a{
 }
 .noscroll{
     overflow: hidden;
+}
+.corps-video {
+    display: block;
+    width: 100vw;
+    padding-top: 30px;
+    position: relative;
+    margin-left: calc(-50vw + 50%);
+    height: auto;
 }
