@@ -17,16 +17,32 @@
 
 <body>
     <header class="header">
-        <a class="header_logo-link" href="#">
-            <img class="header__logo" src="/assets/icons/Logo.svg" alt="Logo Humain sur mesure">
-        </a>
-
-        <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+        <div>
+            <div>
+                <a class="header_logo-link" href="#">
+                    <img class="header__logo" src="/assets/icons/Logo.svg" alt="Logo Humain sur mesure">
+                </a>
+            </div>
+            <div class="form__container" style="color: white; position: relative; margin-top: 20px; z-index: 1;">
+                <div class="form__content">
+                    <div class="language-selector">
+                        <a href="../fr/index.html" onclick="document.cookie = `nf_lang=fr; path=/ ; SameSite=Strict`"
+                            style="text-decoration: none; color: white;" class="lang-btn">FR</a>
+                        <span class="divider"></span>
+                        <a href="../en/index.html" onclick="document.cookie = `nf_lang=en; path=/ ; SameSite=Strict`"
+                            style="text-decoration: none; color: white;" class="lang-btn">EN</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <button style="padding-bottom: 60px;" class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false"
+            aria-controls="mainNav">
             <span class="menu-btn__bar" aria-hidden="true"></span>
         </button>
         <section class="header__menu menu">
             <div>
-                <a class="header_logo-link" href="#">
+                <a class="header_logo-link" href="index.html">
                     <img class="header__logo deux" src="/assets/icons/Logo.svg" alt="Logo Humain sur mesure">
                 </a>
             </div>
