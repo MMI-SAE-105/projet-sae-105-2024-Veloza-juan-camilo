@@ -94,3 +94,21 @@ a{
     margin-left: calc(-50vw + 50%);
     height: auto;
 }
+.articles-title{
+    font-weight: 600;
+    font-style: normal;
+    line-height: 110%;
+    text-align: center;
+    padding-top: 4rem;
+}
+.articles-title h2{
+    font-weight: 650;
+}
+.artciles-ligne-title{
+    background-color: black;
+    border: none;
+    display: inline-block;
+    width: 14.75rem;
+    height: 0.188rem;
+    align-content: center;
+}

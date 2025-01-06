@@ -217,6 +217,7 @@ span.type img{
     background-color: black;
     width: 171px;
     height: 3px;
+    border: none;
 }
 .corps-title-enbas{
     padding-top: 50px;
