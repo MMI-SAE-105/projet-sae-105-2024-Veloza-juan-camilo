@@ -62,11 +62,11 @@
 .scroll-indicator{
     position: absolute;
     bottom:2rem;
-    left: 50%;
+    left: 46.5%;
     color: white;
-    transform: translateX(-50%);
     font-size: var(--taille-big-heading);
     animation: bounce 2s infinite;
+    transform: translateX(-20%);
 }
 
 @keyframes bounce{
