@@ -10,7 +10,7 @@
     padding: 30px;
     text-decoration: none;
     transform: translateX(100vw);
-    transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; 
 }
 .menu[aria-hidden="false"] {
     transform: translateX(0);
@@ -179,7 +179,6 @@
     .menu__reseaux-sociaux {
         gap: 300px;
         margin-left: 30px;
-
     }
 }
 

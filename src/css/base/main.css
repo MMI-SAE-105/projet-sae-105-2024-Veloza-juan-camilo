@@ -52,7 +52,7 @@ figcaption {
     font-size: var(--taille-small-text);
     font-weight: normal;
     line-height: 160%;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
 }
 ul,
 li{
